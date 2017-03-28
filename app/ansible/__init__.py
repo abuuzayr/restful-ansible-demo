@@ -63,7 +63,6 @@ class Playbook(object):
             playbooks=[],
             loader=DataLoader(),
             result_callback=None,
-            host_list=None,
             passwords=None,
             inventory=None):
         self._Options = namedtuple('Options', self.option_fields)
