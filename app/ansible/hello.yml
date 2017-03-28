@@ -1,0 +1,8 @@
+---
+
+- hosts: all
+  tasks:
+    - name: 'creates /root/hello_{{ hello_name }} file'
+      file:
+        path: '/root/hello_{{ hello_name }}'
+        state: 'touch'
