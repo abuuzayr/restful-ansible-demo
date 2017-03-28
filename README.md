@@ -5,10 +5,15 @@ called from a trigger upon a rest endpoint.
 
 ## Dependencies
 
+*Note: minor versions may not be that important. Listed are the
+targeted environment specs*
+
+**Python version: `3.6.0`**
+
 Pip dependencies include the following:
 
-+ ansible
-+ pyramid
++ `ansible==2.2.2.0`
++ `pyramid==1.8.3`
 
 ## Run the demo
 
