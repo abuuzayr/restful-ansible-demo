@@ -22,7 +22,7 @@ Run `run.py` on python in the root project directory to run the demo.
 Access to any routes defined in `app/__init__.py` to trigger the
 endpoint. See the file itself for information.
 
-## How to use the `.app.ansible.playbook.Playbook` class?
+## How to use the `app.ansible.playbook.Playbook` class?
 
 *Todo: document this inline with pydoc inside the class instead*
 
